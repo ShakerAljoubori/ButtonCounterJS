@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: #265970;
+    background: radial-gradient(circle, rgba(38, 89, 112, 1) 0%, rgba(224, 52, 52, 1) 50%, rgba(101, 54, 179, 1) 100%);
+}
+
+.bton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bton button {
+    width: 150px;
+    height: 75px;
+    background: black;
+    color: white;
+}
+
+.bton button:hover {
+    background-color: rgb(66, 66, 66);
+}
